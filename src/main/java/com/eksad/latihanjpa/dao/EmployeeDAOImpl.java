@@ -55,8 +55,8 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		// TODO Auto-generated method stub
 		// ? fungsinya untuk memasukkan parameter kita, nah 0 nya ini parameter ke berapa
 		// dibawahnya kan ditulis name itu parameter ke 0
-//		return entityManager.createNativeQuery("SELECT * FROM employee WHERE name LIKE ?0 ", Employee.class)
-		return entityManager.createQuery("select e from Employee e where e.name like ?0 ", Employee.class)
+		return entityManager.createNativeQuery("SELECT * FROM employee WHERE name LIKE ?0 ", Employee.class)
+//		return entityManager.createQuery("select e from Employee e where e.name like ?0 ", Employee.class)
 		.setParameter(0, "%" + name + "%")
 		.getResultList();
 	}
