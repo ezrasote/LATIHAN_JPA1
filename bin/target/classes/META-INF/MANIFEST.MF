@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: latihanjpa
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: User-PC
+Implementation-Vendor-Id: com.eksad
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/latihanjpa/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
